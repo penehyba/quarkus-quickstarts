@@ -146,6 +146,7 @@
                         <phase>test-compile</phase>
                         <goals>
                             <goal>stop</goal>
+                            <goal>remove</goal>
                             <goal>start</goal>
                         </goals>
                     </execution>
@@ -154,6 +155,7 @@
                         <phase>post-integration-test</phase>
                         <goals>
                             <goal>stop</goal>
+                            <goal>remove</goal>
                         </goals>
                     </execution>
                 </executions>
